@@ -31,10 +31,14 @@ public class Main {
 		 */
 		
 		// Array único
-		String[] nome = new String[5];
-		nome[0] = "Yan";
-		nome[1] = "João";
-		System.out.println(nome[0]);
+		/*
+		 * String[] nome = new String[5];
+			nome[0] = "Yan";
+			nome[1] = "João";
+			System.out.println(nome[0]);
+		 * 
+		 */
+		
 		
 		//Array Multidimensional
 		/* 
@@ -44,15 +48,31 @@ public class Main {
 		*/
 		
 		// Condições
-		int vida = 100;
+		/*
+		 *	int vida = 100;
+			
+			if(vida>100) {
+				System.out.println("Vida Extra");
+			}else if(vida == 100) {
+				System.out.println("Vida cheia");
+			}else {
+				System.out.println("Vida baixa");
+			}
+		 */
 		
-		if(vida>100) {
-			System.out.println("Vida Extra");
-		}else if(vida == 100) {
-			System.out.println("Vida cheia");
-		}else {
-			System.out.println("Vida baixa");
+		// Switch Case
+		int vida = 100;
+		switch(vida) {
+			case 90:
+				System.out.println("Vida baixa");
+			break;
+			case 80:
+				System.out.println("Vida muito baixa");
+				break;
+			default:
+				System.out.println("Vida cheia");
 		}
+		
 		
 		
 	}
