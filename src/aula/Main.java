@@ -37,9 +37,22 @@ public class Main {
 		System.out.println(nome[0]);
 		
 		//Array Multidimensional
-		String[][] sobrenome = new String[5][5];
-		sobrenome[0][0] = "Roger";
-		System.out.println(sobrenome[0][0]);
+		/* 
+		 * String[][] sobrenome = new String[5][5];
+			sobrenome[0][0] = "Roger";
+			System.out.println(sobrenome[0][0]);
+		*/
+		
+		// Condições
+		int vida = 100;
+		
+		if(vida>100) {
+			System.out.println("Vida Extra");
+		}else if(vida == 100) {
+			System.out.println("Vida cheia");
+		}else {
+			System.out.println("Vida baixa");
+		}
 		
 		
 	}
