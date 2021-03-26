@@ -24,9 +24,22 @@ public class Main {
 		*/
 		
 		// Constantes
-		final int vidaMaxia = 100;
+		/*
+			 * final int vidaMaxia = 100;
+				System.out.println(vidaMaxia);
+			 * 
+		 */
 		
-		System.out.println(vidaMaxia);
+		// Array único
+		String[] nome = new String[5];
+		nome[0] = "Yan";
+		nome[1] = "João";
+		System.out.println(nome[0]);
+		
+		//Array Multidimensional
+		String[][] sobrenome = new String[5][5];
+		sobrenome[0][0] = "Roger";
+		System.out.println(sobrenome[0][0]);
 		
 		
 	}
