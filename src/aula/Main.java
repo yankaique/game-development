@@ -61,19 +61,31 @@ public class Main {
 		 */
 		
 		// Switch Case
-		int vida = 100;
-		switch(vida) {
-			case 90:
-				System.out.println("Vida baixa");
-			break;
-			case 80:
-				System.out.println("Vida muito baixa");
+		/*
+			int vida = 100;
+			switch(vida) {
+				case 90:
+					System.out.println("Vida baixa");
 				break;
-			default:
-				System.out.println("Vida cheia");
+				case 80:
+					System.out.println("Vida muito baixa");
+					break;
+				default:
+					System.out.println("Vida cheia");
+			}
+		*/
+		
+		int vida_1 = 100;
+		int vida_2 = 200;
+		int vida_3 = 300;
+		int vidaFinal =  vida_1 +  vida_2 + vida_3;
+		System.out.println(vidaFinal);
+		
+		if(vida_1 < vidaFinal && vida_3 > vida_2) {
+			System.out.println("Você morreu");
+		}else if(vida_1 < vidaFinal || vida_3 > vida_2) {
+			System.out.println("Você está vivão");
 		}
-		
-		
 		
 	}
 }
