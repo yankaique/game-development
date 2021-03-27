@@ -75,17 +75,40 @@ public class Main {
 			}
 		*/
 		
-		int vida_1 = 100;
-		int vida_2 = 200;
-		int vida_3 = 300;
-		int vidaFinal =  vida_1 +  vida_2 + vida_3;
-		System.out.println(vidaFinal);
+		// Operação Matemática
+		/*
+			int vida_1 = 100;
+			int vida_2 = 200;
+			int vida_3 = 300;
+			int vidaFinal =  vida_1 +  vida_2 + vida_3;
+			System.out.println(vidaFinal);
+			
+			if(vida_1 < vidaFinal && vida_3 > vida_2) {
+				System.out.println("Você morreu");
+			}else if(vida_1 < vidaFinal || vida_3 > vida_2) {
+				System.out.println("Você está vivão");
+			}
+		*/
 		
-		if(vida_1 < vidaFinal && vida_3 > vida_2) {
-			System.out.println("Você morreu");
-		}else if(vida_1 < vidaFinal || vida_3 > vida_2) {
-			System.out.println("Você está vivão");
+		// Looping
+		int contador = 0;
+		
+		/*
+		while(contador <= 10){
+			System.out.println("O número do contador é: "+contador);
+			contador++;
 		}
+		
+		
+		for(int i =0; i< 10; i++) {
+			System.out.println("O número do contador é: "+i);
+		}
+		*/
+		
+		do {
+			System.out.println("O número do contador é: "+contador);
+			contador++;
+		}while(contador < 3);
 		
 	}
 }
