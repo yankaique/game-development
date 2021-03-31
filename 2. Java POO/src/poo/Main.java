@@ -1,21 +1,23 @@
 package poo;
 
 public class Main {
+
+	private String nome = "Yan";
+	public static final int vidaMaxima = 100;
 	
-	private static int soma(int n1, int n2) {
-		return n1+n2;
+	// Método construtor
+	public Main() {
+		System.out.println(this.nome);
 	}
 	
-	private static String nome(String n1) {
-		String frase = "Olá querido "+n1;
-		return frase;
+	public String getName() {
+		return nome;
 	}
 	
 	public static void main(String[] args) {
-		Player2 player2 = new Player2();
-		player2.outroMetodo();
-		System.out.println(soma(10,20));
-		System.out.println(nome("Yan"));
+		Main m = new Main();
+		System.out.println(m.getName());
+		System.out.println(Main.vidaMaxima);
 	}
 	
 }
